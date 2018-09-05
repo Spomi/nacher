@@ -34,4 +34,4 @@ console.log("BOT ONLINE");
 
 
 
-client.login(process.env.BOT0_TOKEN);
+client.login(process.env.BOT12_TOKEN);
