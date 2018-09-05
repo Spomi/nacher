@@ -29,19 +29,9 @@ m.sendMessage(args)
 let timer;
 console.log("BOT ONLINE");
 
-client.on("guildMemberAdd", member => {
-    timer = Math.floor(Math.random() * (30000 - 30000 + 1)) + 30000
-  let words = [` Hey can you join to my server blush thank you and have fun 
- https://discord.gg/NAZPu7a `]
-  setTimeout(() =>{
-  member.createDM().then(function (channel) {
-  return channel.send(`${words[Math.floor(Math.random() * words.length)]}`) 
-}).catch(console.error)
-}, timer)
-})
 
 
 
 
 
-client.login(process.env.BOT10_TOKEN);
+client.login(process.env.BOT0_TOKEN);
